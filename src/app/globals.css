@@ -2,20 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  background: #dddddd;
+  font-family: 'Clash Display', sans-serif;
+}
+@layer utilities {
+  .border-rounded {
+    border-radius: 8px;
+    border: 0.5px solid #292929;
+  }
 }
