@@ -10,7 +10,7 @@ const items = [
 ];
 export default function TopBar() {
   return (
-    <nav className="flex items-center flex-wrap justify-end gap-4 py-4">
+    <nav className=" container flex items-center flex-wrap justify-end gap-4 py-4">
       {items?.map((item, i) => (
         <ul key={i} className="flex items-center gap-1 text-[#0B0B0B] text-xs">
           <li>{item.title}</li>

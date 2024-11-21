@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className="">
         <TopBar />
         <Navbar />
-        {children}
+        <div className="container my-12">{children}</div>
         <Footer />
       </body>
     </html>

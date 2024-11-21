@@ -12,4 +12,7 @@ body {
     border-radius: 8px;
     border: 0.5px solid #292929;
   }
+  .input-primary {
+    @apply w-full border-b border-[#0B0B0B] px-0 py-1 placeholder:text-transparent focus:border-gray-500 focus:outline-none;
+  }
 }
